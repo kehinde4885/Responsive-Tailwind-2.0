@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'outfit', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 5vw  1fr 5vw;
+}
+
+header {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 5vw  1fr 5vw;
+}
+
+#hero {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 5vw  1fr 5vw;
+}

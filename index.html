@@ -11,7 +11,228 @@
     <title>Beautify & Co.</title>
 </head>
 <body>
-    <h1 class="font-outfit text-greydark">My Tailwind Project</h1>
+    <div class="wrapper">
+
+         <header>
+            <div class="col-start-2 col-end-3 flex items-center justify-between">
+                <img src="./Images/Logo-Dark.png" alt="">
+                <ul class="">
+                    <li class="hidden">Products</li>
+                    <li class="hidden">About us</li>
+                    <li class=""><span class="hidden">My basket</span>
+                        <span><img src="./Images/cart-icon.png" alt=""></span>
+                    </li>
+                </ul>
+                <button class="hidden">Contact us</button>
+            </div>
+        </header>
+
+
+        <section id="hero" class="bg-greydark">
+            <div class="col-start-2 col-end-3 ">
+                <h1 class="text-6xl font-semibold">Proven to tackle wrinkles & acne</h1>
+                <p class="text-3xl">What makes us different?</p>
+                <p class="text-3xl">We treat you personally - and honestly</p>
+                <button class="text-white bg-black w-full p-5 rounded-6xl text-3xl">Shop Skincare</button>
+            </div>
+            <div class="col-start-2 col-end-3">
+                <img src="./Images/hero-products.png" alt="">
+            </div>
+            <div class="col-start-2 col-end-3">
+                <p>Thousands of people have benefited from our services.
+                    But let's be real - there's no magic bullet just science.
+                    That's why we do what we do.
+                    Everyone deserves clear, confident skin.
+                </p>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div>
+                <p>Shower Gel</p>
+                <p>$40.00 USD</p>
+                <img src="./Images/product-shower-gel.png" alt="">
+                <div>
+                    <button>Buy Now</button>
+                    <button>Learn more</button>
+                </div>
+            </div>
+        </section>    
     
+        <section id="advert">
+            <img src="./Images/video-1-poster-00001.jpg" alt="">
+        </section>
+    
+        <section id="infographics">
+            <div>
+                <h3>Speak with a dermatologist today</h3>
+                <p>We have a specialist ready to help you with any
+                    answer and advice you need
+                </p>
+                <button>Shop Skincare</button>
+            </div>
+    
+            <div>
+                <h3> 10% off only this week</h3>
+                <p>10% off our Anti-Aging Cleanser</p>
+            </div>
+        </section>
+    
+        <section id="about">
+            <div>
+                <img src="./Images/home-about-us.png" alt="">
+            </div>
+            <div>
+                <h2>Our commitment to sustainability</h2>
+                <p>We want to meet the needs of the present
+                    without jeopardizing future generations'
+                    ability to meet thier own.
+                </p>
+                <p>Sustainability is built on three pillars: economic,
+                    environmental, and social: profits, planet, and people. 
+                    Our formulations have been shown to be effective, 
+                    contain only natural ingredients, and are cruelty-free.
+                </p>
+                <button>More about us</button>
+            </div>
+            
+        </section>
+    
+        <section id="blog">
+            <h2>Read what's new</h2>
+            <article>
+                <p>The Top 10 Tips for Healthy Winter Skin</p>
+                <p>Read more about what experts say ...</p>
+                <div>
+                    <button>Read now</button>
+                    <button>Go to blog</button>
+                </div>
+            </article>
+        </section>
+    
+        <section id="routine">
+            <h2>Skincare routine in 4 steps</h2>
+            <div>
+                <p>Step 01.</p>
+                <img src="./Images/step-1-icon.png" alt="">
+                <p>Wash with <span>Cleanser</span></p>
+                <p>The first step in any skincare routine 
+                    should be to cleanse the face.</p>
+            </div>
+    
+        </section>
+    
+        <section id="feed">
+            <div>
+                <img src="./Images/instagram-feed-item-1-p-500.jpeg" alt="">
+            </div>
+            <div>
+                <img src="./Images/instagram-feed-item-2.jpg" alt="">
+            </div>
+            <div>
+                <img src="./Images/Homepage-article-3.jpg" alt="">
+            </div>
+            <div>
+                <img src="./Images/Homepage-article-4.jpg" alt="">
+            </div>
+            <div>
+                <img src="./Images/Homepage-article-5.jpg" alt="">
+            </div>
+            <div>
+                <img src="./Images/Homepage-article-6.jpg" alt="">
+            </div>
+            <div>
+                <img src="./Images/instagram-feed-item-7.jpg" alt="">
+            </div>
+    
+        </section>
+        
+    </div>
+
+    <footer id="footer">
+        <div id="contact">
+            <p>Contact us</p>
+            <form action="">
+                <div>
+                    <label for="name">NAME</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="message">MESSAGE*(MIN.120 CHARACTERS)</label>
+                    <input type="text-area" name="message" id="message">
+                </div>
+            </form>
+        </div>
+
+        <div id="info">
+            <div>
+                <p>About</p>
+                <ul>
+                    <li>Homepage</li>
+                    <li>Our experts</li>
+                    <li>About us</li>
+                    <li>Products</li>
+                    <li>Read what's new</li>
+                </ul>
+            </div>
+
+            <div>
+                <p>Products</p>
+                <ul>
+                    <li>Cleansers</li>
+                    <li>Serums</li>
+                    <li>Creams</li>
+                    <li>SPFs</li>
+                    <li>Toners</li>
+                </ul>
+            </div>
+
+            <div>
+                <p>Help</p>
+                <ul>
+                    <li>Shipping & Returns</li>
+                    <li>Track Order</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+
+            <div>
+                <p>Contact us</p>
+                <p>PHONE</p>
+                <p>(0000) 000 000</p>
+                <p>EMAIL</p>
+                <p>Sarah@beautifyco.com</p>
+            </div>
+
+            <div>
+                <p>Follow us</p>
+                <ul>
+                    <li><img src="./Images/instagram.png" alt=""></li>
+                    <li><img src="./Images/tiktok.png" alt=""></li>
+                    <li><img src="./Images/youtube.png" alt=""></li>
+                    <li><img src="./Images/twitter.png" alt=""></li>
+                </ul>
+            </div>
+
+            <div>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <p>© 2022 Beautify & Co. All rights reserved. Beautify, Beauty B, B, are trademarks of Beautify & Co</p>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
+
+
+
+<!-- <h1 class="font-outfit text-greydark">My Tailwind Project</h1>
+<a href="https://beautify-1a0287.webflow.io/" target="_blank">Site Here</a> -->
+
 </html>
