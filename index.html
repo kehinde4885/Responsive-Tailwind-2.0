@@ -38,8 +38,8 @@
             <div class="col-start-2 col-end-3">
                 <img src="./Images/hero-products.png" alt="">
             </div>
-            <div class="col-start-2 col-end-3">
-                <p>Thousands of people have benefited from our services.
+            <div class="custom-grid col-span-full  bg-greylight">
+                <p class="col-start-2 col-end-3 text-[1.8rem] leading-loose">Thousands of people have benefited from our services.
                     But let's be real - there's no magic bullet just science.
                     That's why we do what we do.
                     Everyone deserves clear, confident skin.
@@ -48,29 +48,32 @@
         </section>
 
         <section id="products">
-            <h2>Our Products</h2>
-            <div>
-                <p>Shower Gel</p>
-                <p>$40.00 USD</p>
-                <img src="./Images/product-shower-gel.png" alt="">
-                <div>
-                    <button>Buy Now</button>
-                    <button>Learn more</button>
+            <div class="col-start-2 col-end-3">
+                <h2 class="text-5xl font-semibold my-12">Our Products</h2>
+
+                <div id="product-card" class="bg-greydark rounded-4xl flex flex-col items-center px-[7.5%] pt-28 pb-11">
+                    <p class="text-3xl font-semibold self-start">Shower Gel</p>
+                    <p class="text-4xl text-greydark2 font-medium self-start my-8">$40.00 USD</p>
+                    <img class="" src="./Images/product-shower-gel.png" alt="">
+                    <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                        <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Buy Now</button>
+                        <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black ">Learn more</button>
+                    </div>
                 </div>
             </div>
         </section>    
     
-        <section id="advert">
+        <section id="advert" class="col-span-full">
             <img src="./Images/video-1-poster-00001.jpg" alt="">
         </section>
     
         <section id="infographics">
-            <div>
-                <h3>Speak with a dermatologist today</h3>
-                <p>We have a specialist ready to help you with any
+            <div class="bg-info-1 bg-cover rounded-5xl p-[5%]">
+                <h3 class="text-4xl font-semibold">Speak with a dermatologist today</h3>
+                <p class="text-2xl leading-relaxed">We have a specialist ready to help you with any
                     answer and advice you need
                 </p>
-                <button>Shop Skincare</button>
+                <button class="text-white bg-black w-full p-5 rounded-6xl text-3xl">Shop Skincare</button>
             </div>
     
             <div>

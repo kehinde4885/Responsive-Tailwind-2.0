@@ -18,6 +18,16 @@ module.exports = {
       fontFamily: {
         outfit: "outfit , sans-serif"
       },
+
+      backgroundImage: {
+        'info-1': "url('./images/derma-1.png')",
+        'info-2': "url('./images/derma-2.png')",
+        'info-3': "url('./images/derma-3.png')",
+        'info-4': "url('./images/derma-4.png')",
+        'info-5': "url('./images/derma-5.png')",
+        'info-6': "url('./images/derma-6.png')",
+      },
+
       colors : {
         'greylight': '#f0ede8',
         'greydark': '#ddd8d1',

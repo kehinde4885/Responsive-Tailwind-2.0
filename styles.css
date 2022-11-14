@@ -12,17 +12,34 @@ html {
 
 .wrapper{
     display: grid;
-    grid-template-columns: 5vw  1fr 5vw;
+    grid-template-columns: 10vw  1fr 10vw;
+    row-gap: 3em;
+}
+
+.custom-grid {
+    display: grid;
+    grid-template-columns: 10vw  1fr 10vw;
 }
 
 header {
     grid-column: span 3;
     display: grid;
-    grid-template-columns: 5vw  1fr 5vw;
+    grid-template-columns: 10vw  1fr 10vw;
 }
 
 #hero {
     grid-column: span 3;
     display: grid;
-    grid-template-columns: 5vw  1fr 5vw;
+    grid-template-columns: 10vw  1fr 10vw;
+}
+
+#products {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 10vw  1fr 10vw;
+}
+
+#infographics {
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
