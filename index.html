@@ -48,7 +48,7 @@
         </section>
 
         <section id="products">
-            <div class="col-start-2 col-end-3">
+            <div class="">
                 <h2 class="text-5xl font-semibold my-12">Our Products</h2>
 
                 <div id="product-card" class="bg-greydark rounded-4xl flex flex-col items-center px-[7.5%] pt-28 pb-11">
@@ -68,82 +68,89 @@
         </section>
     
         <section id="infographics">
-            <div class="bg-info-1 bg-cover rounded-5xl p-[5%]">
-                <h3 class="text-4xl font-semibold">Speak with a dermatologist today</h3>
-                <p class="text-2xl leading-relaxed">We have a specialist ready to help you with any
-                    answer and advice you need
-                </p>
-                <button class="text-white bg-black w-full p-5 rounded-6xl text-3xl">Shop Skincare</button>
+            <div class="bg-info-1 bg-cover bg-[top_right_40%] rounded-5xl p-[5%] flex flex-col min-h-[400px]">
+                <div class="w-9/12">
+                    <h3 class="text-4xl font-semibold">Speak with a dermatologist today</h3>
+                    <p class="text-2xl leading-relaxed my-12">We have a specialist ready to help you with any
+                        answer and advice you need
+                    </p>
+                </div>
+                <button class="text-white bg-black w-full p-5 rounded-6xl text-3xl mt-auto">Shop Skincare</button>
             </div>
     
-            <div>
-                <h3> 10% off only this week</h3>
-                <p>10% off our Anti-Aging Cleanser</p>
+            <div class="bg-info-2 bg-cover text-white rounded-5xl p-[5%] flex flex-col">
+                <div class="w-6/12">
+                    <h3 class="text-4xl font-semibold"> 10% off only this week</h3>
+                    <p class="text-2xl leading-relaxed my-12">10% off our Anti-Aging Cleanser</p>
+                </div>
             </div>
         </section>
     
         <section id="about">
-            <div>
+            <div class="col-span-full">
                 <img src="./Images/home-about-us.png" alt="">
             </div>
-            <div>
-                <h2>Our commitment to sustainability</h2>
-                <p>We want to meet the needs of the present
+            <div class="col-start-2 col-span-1 py-12">
+                <h2 class="text-5xl font-semibold">Our commitment to sustainability</h2>
+                <p class="text-[1.8rem] leading-snug my-12">We want to meet the needs of the present
                     without jeopardizing future generations'
                     ability to meet thier own.
                 </p>
-                <p>Sustainability is built on three pillars: economic,
+                <p class="text-2xl leading-relaxed my-12">Sustainability is built on three pillars: economic,
                     environmental, and social: profits, planet, and people. 
                     Our formulations have been shown to be effective, 
                     contain only natural ingredients, and are cruelty-free.
                 </p>
-                <button>More about us</button>
+                <button class="text-white bg-black w-full p-5 rounded-6xl text-3xl">More about us</button>
             </div>
             
         </section>
     
         <section id="blog">
-            <h2>Read what's new</h2>
-            <article>
-                <p>The Top 10 Tips for Healthy Winter Skin</p>
-                <p>Read more about what experts say ...</p>
-                <div>
-                    <button>Read now</button>
-                    <button>Go to blog</button>
-                </div>
-            </article>
+            <div class="">
+                <h2 class="text-5xl font-semibold my-12">Read what's new</h2>
+
+                <article id="blog-article" class="bg-blog-1 rounded-4xl flex flex-col px-[7.5%] py-[5%]">
+                    <p class="text-4xl font-semibold text-white">The Top 10 Tips for Healthy Winter Skin</p>
+                    <p class="text-white text-2xl my-16">Read more about what experts say ...</p>
+                    <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                        <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Read now</button>
+                        <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black">Go to blog</button>
+                    </div>
+                </article>
+            </div>
         </section>
     
         <section id="routine">
-            <h2>Skincare routine in 4 steps</h2>
-            <div>
-                <p>Step 01.</p>
+            <h2 class="text-5xl font-semibold mb-12">Skincare routine in 4 steps</h2>
+            <div class="flex flex-col items-center">
+                <p class="bg-greydark2 py-4 px-8 rounded-3xl text-2xl text-white font-semibold my-8">Step 01.</p>
                 <img src="./Images/step-1-icon.png" alt="">
-                <p>Wash with <span>Cleanser</span></p>
-                <p>The first step in any skincare routine 
+                <p class="text-3xl font-semibold my-8">Wash with <span>Cleanser</span></p>
+                <p class="text-2xl leading-relaxed text-center">The first step in any skincare routine 
                     should be to cleanse the face.</p>
             </div>
     
         </section>
     
         <section id="feed">
-            <div>
+            <div class="col-span-2">
                 <img src="./Images/instagram-feed-item-1-p-500.jpeg" alt="">
             </div>
-            <div>
+            <div >
                 <img src="./Images/instagram-feed-item-2.jpg" alt="">
             </div>
             <div>
-                <img src="./Images/Homepage-article-3.jpg" alt="">
+                <img src="./Images/instagram-feed-item-3.jpg" alt="">
             </div>
             <div>
-                <img src="./Images/Homepage-article-4.jpg" alt="">
+                <img src="./Images/instagram-feed-item-4.jpg" alt="">
             </div>
             <div>
-                <img src="./Images/Homepage-article-5.jpg" alt="">
+                <img src="./Images/instagram-feed-item-5.jpg" alt="">
             </div>
             <div>
-                <img src="./Images/Homepage-article-6.jpg" alt="">
+                <img src="./Images/instagram-feed-item-6.jpg" alt="">
             </div>
             <div>
                 <img src="./Images/instagram-feed-item-7.jpg" alt="">
@@ -154,25 +161,27 @@
     </div>
 
     <footer id="footer">
-        <div id="contact">
-            <p>Contact us</p>
-            <form action="">
-                <div>
-                    <label for="name">NAME</label>
-                    <input type="text" name="name" id="name">
-                </div>
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="text" name="email" id="email">
-                </div>
-                <div>
-                    <label for="message">MESSAGE*(MIN.120 CHARACTERS)</label>
-                    <input type="text-area" name="message" id="message">
-                </div>
-            </form>
+        <div id="contact" class="custom-grid col-span-3 bg-footer text-white">
+            <div class="col-start-2 col-end-3">
+                <p class="text-5xl font-semibold my-12">Contact us</p>
+                <form action="" class="flex flex-col">
+                    <div class="flex flex-col">
+                        <label class="text-2xl" for="name">NAME</label>
+                        <input class="bg-transparent" type="text" name="name" id="name">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="email">EMAIL</label>
+                        <input  class="bg-transparent" type="text" name="email" id="email">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="message">MESSAGE*(MIN.120 CHARACTERS)</label>
+                        <textarea class="bg-transparent" type="text-area" name="message" id="message"></textarea>
+                    </div>
+                </form>
+            </div>
         </div>
 
-        <div id="info">
+        <div id="info" class="col-span-3">
             <div>
                 <p>About</p>
                 <ul>
