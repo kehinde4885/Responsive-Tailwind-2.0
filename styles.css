@@ -12,32 +12,32 @@ html {
 
 .wrapper{
     display: grid;
-    grid-template-columns: 10vw  1fr 10vw;
+    grid-template-columns: 10vw  80vw 10vw;
     /* row-gap: 3em; */
 }
 
 .custom-grid {
     display: grid;
-    grid-template-columns: 10vw  1fr 10vw;
+    grid-template-columns: 10vw  80vw 10vw;
 }
 
 header {
     grid-column: span 3;
     display: grid;
-    grid-template-columns: 10vw  1fr 10vw;
+    grid-template-columns: 10vw  80vw 10vw;
 }
 
 #hero {
     grid-column: span 3;
     display: grid;
-    grid-template-columns: 10vw  1fr 10vw;
+    grid-template-columns: 10vw  80vw 10vw;
 }
 
 #products {
     grid-column-start: 2;
     grid-column-end: 3;
     /* display: grid;
-    grid-template-columns: 10vw  1fr 10vw; */
+    grid-template-columns: 10vw  80vw 10vw; */
 }
 
 #infographics {
@@ -52,14 +52,14 @@ header {
 #about {
     grid-column: span 3;
     display: grid;
-    grid-template-columns: 10vw  1fr 10vw;
+    grid-template-columns: 10vw 80vw 10vw;
 }
 
 #blog{
     grid-column-start: 2;
     grid-column-end: 3;
     /* display: grid;
-    grid-template-columns: 10vw  1fr 10vw; */
+    grid-template-columns: 10vw  80vw 10vw; */
 }
 
 #routine {
@@ -78,7 +78,7 @@ header {
 #footer{
     grid-column: span 3;
     display: grid;
-    grid-template-columns: 10vw  1fr 10vw;
+    grid-template-columns: 10vw  80vw 10vw;
 }
 
 .info-grid{
@@ -86,4 +86,19 @@ header {
     grid-auto-columns: 1fr;
     grid-auto-rows: auto;
     row-gap: 3rem;
+}
+
+.movePositive {
+    translate: 50%;
+}
+
+.moveNegative {
+    translate: -50%;
+}
+
+.carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    column-gap: 2rem;
 }

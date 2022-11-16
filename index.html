@@ -26,9 +26,9 @@
             </div>
         </header>
 
-        <main class="col-span-full custom-grid gap-y-12">
+        <main class="col-span-3 custom-grid gap-y-12 overflow-x-hidden">
             <section id="hero" class="bg-greydark">
-                <div class="col-start-2 col-end-3 my-12">
+                <div class="col-start-2 col-span-1 my-12">
                     <h1 class="text-6xl font-semibold my-10">Proven to tackle wrinkles & acne</h1>
                     <p class="text-3xl leading-normal">What makes us different?</p>
                     <p class="text-3xl leading-normal">We treat you personally - and honestly</p>
@@ -47,18 +47,51 @@
             </section>
 
             <section id="products" class="">
-                <div class="">
+                <div class="relative">
                     <h2 class="text-5xl font-semibold my-12">Our Products</h2>
-    
-                    <div id="product-card" class="bg-greydark rounded-4xl flex flex-col items-center px-[7.5%] pt-28 pb-11">
-                        <p class="text-3xl font-semibold self-start">Shower Gel</p>
-                        <p class="text-4xl text-greydark2 font-medium self-start my-8">$40.00 USD</p>
-                        <img class="" src="./Images/product-shower-gel.png" alt="">
-                        <div class="flex flex-col w-full my-8 basis-52 justify-between">
-                            <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Buy Now</button>
-                            <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black ">Learn more</button>
+
+                    <div class="carousel">
+                        <div id="product-card" class="bg-greydark rounded-4xl flex flex-col items-center px-[7.5%] pt-28 pb-11 min-w-max">
+                            <p class="text-3xl font-semibold self-start">Shower Gel</p>
+                            <p class="text-4xl text-greydark2 font-medium self-start my-8">$40.00 USD</p>
+                            <img class="" src="./Images/product-shower-gel.png" alt="">
+                            <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                                <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Buy Now</button>
+                                <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black ">Learn more</button>
+                            </div>
                         </div>
+
+                        <div id="product-card" class="bg-greydark rounded-4xl flex flex-col items-center px-[7.5%] pt-28 pb-11">
+                            <p class="text-3xl font-semibold self-start">Shower Gel</p>
+                            <p class="text-4xl text-greydark2 font-medium self-start my-8">$40.00 USD</p>
+                            <img class="" src="./Images/product-shower-gel.png" alt="">
+                            <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                                <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Buy Now</button>
+                                <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black ">Learn more</button>
+                            </div>
+                        </div>
+
+                        <div id="product-card" class="bg-greydark rounded-4xl flex flex-col items-center px-[7.5%] pt-28 pb-11">
+                            <p class="text-3xl font-semibold self-start">Shower Gel</p>
+                            <p class="text-4xl text-greydark2 font-medium self-start my-8">$40.00 USD</p>
+                            <img class="" src="./Images/product-shower-gel.png" alt="">
+                            <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                                <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Buy Now</button>
+                                <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black ">Learn more</button>
+                            </div>
+                        </div>
+
                     </div>
+
+                    <button class="absolute left-0 top-1/2 moveNegative bg-black h-16 w-16 flex items-center justify-center rounded-full">
+                        <img src="./Images/product-slider-arrow.png" alt="">
+                    </button>
+
+                    <button class="absolute right-0 top-1/2 movePositive bg-black h-16 w-16 flex items-center justify-center rounded-full rotate-180">
+                        <img src="./Images/product-slider-arrow.png" alt="">
+                    </button>
+
+
                 </div>
             </section>    
 
@@ -76,13 +109,45 @@
                     </div>
                     <button class="text-white bg-black w-full p-5 rounded-6xl text-3xl mt-auto">Shop Skincare</button>
                 </div>
-        
-                <div class="bg-info-2 bg-cover text-white rounded-5xl p-[5%] flex flex-col">
+
+                <div class="bg-info-2 bg-cover text-white rounded-5xl p-[5%]">
                     <div class="w-6/12">
                         <h3 class="text-4xl font-semibold"> 10% off only this week</h3>
                         <p class="text-2xl leading-relaxed my-12">10% off our Anti-Aging Cleanser</p>
                     </div>
                 </div>
+
+                <div class="bg-info-3 bg-cover text-white rounded-5xl p-[5%]">
+                    <div class="w-6/12">
+                        <h3 class="text-4xl font-semibold"> Carefully crafted</h3>
+                        <p class="text-2xl leading-relaxed my-12">for you.</p>
+                    </div>
+                </div>
+
+                <div class="bg-info-4 bg-cover text-white rounded-5xl p-[5%] flex">
+                    <div class="self-end">
+                        <h3 class="text-4xl font-semibold"> Chosen by influencers</h3>
+                        <p class="text-2xl leading-relaxed my-12"></p>
+                    </div>
+                </div>
+
+                <div class="bg-info-5 bg-cover text-white rounded-5xl p-[5%]">
+                    <div class="w-6/12 text-black">
+                        <h3 class="text-4xl font-semibold"> Carefully crafted</h3>
+                        <p class="text-2xl leading-relaxed my-12">Created after years of research</p>
+                    </div>
+                </div>
+
+                <div class="bg-info-6 bg-cover bg-[top_right_40%] rounded-5xl p-[5%] flex flex-col min-h-[400px]">
+                    <div class="w-9/12 text-white">
+                        <h3 class="text-4xl font-semibold">Get your customised skincare treatment</h3>
+                        <p class="text-2xl leading-relaxed my-12">We have a specialist ready to help you with any
+                            answer and advice you need.
+                        </p>
+                    </div>
+                    <button class="text-white bg-black w-full p-5 rounded-6xl text-3xl mt-auto">Shop Skincare</button>
+                </div>
+
             </section>
             
             <section id="about">
@@ -105,28 +170,90 @@
             </section>
 
             <section id="blog">
-                <div class="">
+                <div class="relative">
                     <h2 class="text-5xl font-semibold my-12">Read what's new</h2>
-    
-                    <article id="blog-article" class="bg-blog-1 rounded-4xl flex flex-col px-[7.5%] py-[5%]">
-                        <p class="text-4xl font-semibold text-white">The Top 10 Tips for Healthy Winter Skin</p>
-                        <p class="text-white text-2xl my-16">Read more about what experts say ...</p>
-                        <div class="flex flex-col w-full my-8 basis-52 justify-between">
-                            <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Read now</button>
-                            <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black">Go to blog</button>
-                        </div>
-                    </article>
+
+                    <div class="carousel">
+                        <article id="blog-article" class="bg-blog-1 bg-cover rounded-4xl flex flex-col px-[7.5%] py-[5%] space-y-96">
+                            <div>
+                                <p class="text-4xl font-semibold text-white">The Top 10 Tips for Healthy Winter Skin</p>
+                                <p class="text-white text-2xl my-12">Read more about what experts say ...</p>
+                            </div>
+                            <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                                <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Read now</button>
+                                <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black">Go to blog</button>
+                            </div>
+                        </article>
+
+                        <article id="blog-article" class="bg-blog-1 bg-cover rounded-4xl flex flex-col px-[7.5%] py-[5%] space-y-96">
+                            <div>
+                                <p class="text-4xl font-semibold text-white">The Top 10 Tips for Healthy Winter Skin</p>
+                                <p class="text-white text-2xl my-12">Read more about what experts say ...</p>
+                            </div>
+                            <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                                <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Read now</button>
+                                <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black">Go to blog</button>
+                            </div>
+                        </article>
+
+                        <article id="blog-article" class="bg-blog-1 bg-cover rounded-4xl flex flex-col px-[7.5%] py-[5%] space-y-96">
+                            <div>
+                                <p class="text-4xl font-semibold text-white">The Top 10 Tips for Healthy Winter Skin</p>
+                                <p class="text-white text-2xl my-12">Read more about what experts say ...</p>
+                            </div>
+                            <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                                <button class="text-black bg-white p-6 rounded-6xl text-[1.7rem]">Read now</button>
+                                <button class="text-black bg-greydark p-6 rounded-6xl text-[1.7rem] border-2 border-solid border-black">Go to blog</button>
+                            </div>
+                        </article>
+
+                    </div>
+
+
+                    <button class="absolute left-0 top-1/2 moveNegative bg-black h-16 w-16 flex items-center justify-center rounded-full">
+                        <img src="./Images/product-slider-arrow.png" alt="">
+                    </button>
+
+                    <button class="absolute right-0 top-1/2 movePositive bg-black h-16 w-16 flex items-center justify-center rounded-full rotate-180">
+                        <img src="./Images/product-slider-arrow.png" alt="">
+                    </button>
+
                 </div>
             </section>
 
             <section id="routine">
                 <h2 class="text-5xl font-semibold mb-12">Skincare routine in 4 steps</h2>
                 <div class="flex flex-col items-center">
-                    <p class="bg-greydark2 py-4 px-8 rounded-3xl text-2xl text-white font-semibold my-8">Step 01.</p>
+                    <p class="bg-greydark2 py-4 px-8 rounded-3xl text-2xl text-white font-semibold my-12">Step 01.</p>
                     <img src="./Images/step-1-icon.png" alt="">
-                    <p class="text-3xl font-semibold my-8">Wash with <span>Cleanser</span></p>
+                    <p class="text-3xl font-semibold my-12">Wash with <span>Cleanser</span></p>
                     <p class="text-2xl leading-relaxed text-center">The first step in any skincare routine 
                         should be to cleanse the face.</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <p class="bg-brown2 py-4 px-8 rounded-3xl text-2xl text-white font-semibold my-12">Step 02.</p>
+                    <img src="./Images/step-2-icon.png" alt="">
+                    <p class="text-3xl font-semibold my-12">Apply<span> Serum</span></p>
+                    <p class="text-2xl leading-relaxed text-center">A serum tailored to your skin's needs 
+                        can treat as well as protect.</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <p class="bg-brown3 py-4 px-8 rounded-3xl text-2xl text-white font-semibold my-12">Step 03.</p>
+                    <img src="./Images/step-3-icon.png" alt="">
+                    <p class="text-3xl font-semibold my-12">Never skip<span> Moisturizer</span></p>
+                    <p class="text-2xl leading-relaxed text-center">Next are heavier formulas, such as moisturizer, 
+                        to keep the skin hydrated.</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <p class="bg-greydark py-4 px-8 rounded-3xl text-2xl text-white font-semibold my-12">Step 04.</p>
+                    <img src="./Images/step-4-icon.png" alt="">
+                    <p class="text-3xl font-semibold my-12">Finish with<span> Sunscreen</span></p>
+                    <p class="text-2xl leading-relaxed text-center">It's the most important step in any skincare routine, 
+                        regardless of skin type or age.
+                    </p>
                 </div>
         
             </section>
