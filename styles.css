@@ -13,7 +13,7 @@ html {
 .wrapper{
     display: grid;
     grid-template-columns: 10vw  1fr 10vw;
-    row-gap: 3em;
+    /* row-gap: 3em; */
 }
 
 .custom-grid {
@@ -79,4 +79,11 @@ header {
     grid-column: span 3;
     display: grid;
     grid-template-columns: 10vw  1fr 10vw;
+}
+
+.info-grid{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: auto;
+    row-gap: 3rem;
 }

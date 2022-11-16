@@ -708,6 +708,11 @@ select {
   margin-bottom: 3rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -718,12 +723,34 @@ select {
   margin-bottom: 4rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mt-auto {
   margin-top: auto;
 }
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
@@ -750,6 +777,10 @@ select {
   width: 50%;
 }
 
+.w-2\/6 {
+  width: 33.333333%;
+}
+
 .basis-52 {
   flex-basis: 13rem;
 }
@@ -764,6 +795,10 @@ select {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-y-12 {
+  row-gap: 3rem;
 }
 
 .self-start {
@@ -797,6 +832,11 @@ select {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-greydark {
@@ -864,6 +904,11 @@ select {
   padding: 5%;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .px-\[7\.5\%\] {
   padding-left: 7.5%;
   padding-right: 7.5%;
@@ -887,6 +932,15 @@ select {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .pt-28 {
@@ -938,12 +992,25 @@ select {
   line-height: 2rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .leading-loose {
@@ -978,6 +1045,15 @@ select {
   color: rgb(221 216 209 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 body {
   font-family: 'outfit', sans-serif;
 }
@@ -989,7 +1065,7 @@ html {
 .wrapper{
   display: grid;
   grid-template-columns: 10vw  1fr 10vw;
-  row-gap: 3em;
+  /* row-gap: 3em; */
 }
 
 .custom-grid {
@@ -1055,4 +1131,11 @@ header {
   grid-column: span 3;
   display: grid;
   grid-template-columns: 10vw  1fr 10vw;
+}
+
+.info-grid{
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: auto;
+  row-gap: 3rem;
 }
