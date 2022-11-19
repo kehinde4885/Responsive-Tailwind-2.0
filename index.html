@@ -11,7 +11,7 @@
     <title>Beautify & Co.</title>
 </head>
 <body class="overflow-x-hidden">
-    <div class="wrapper pb-12">
+    <div class="pb-12">
          <header>
             <div class="md:justify-[unset] col-start-2 col-end-3 flex items-center py-6">
                 <img class="sm:h-8 " src="./Images/Logo-Dark.png" alt="">
@@ -26,7 +26,7 @@
             </div>
         </header>
 
-        <main class="custom-grid gap-y-12 overflow-x-hidden">
+        <main class="wrapper gap-y-24 overflow-x-hidden">
             <section id="hero" class="bg-greydark">
                 <div class="md:items-center custom-grid3 col-start-2 col-span-1">
                     <div class="my-12">
@@ -118,7 +118,8 @@
             </section>    
 
             <section id="advert" class="col-span-full">
-                <img src="./Images/video-1-poster-00001.jpg" alt="">
+                <!-- <img class="object-cover w-full" src="./Images/video-1-poster-00001.jpg" alt=""> -->
+                <video class="w-full" autoplay loop src="./Images/video-1-transcode.mp4"></video>
             </section>
 
             <section id="infographics" class="my-12">
@@ -176,10 +177,10 @@
                 <div class="col-span-full md:col-span-1 relative">
                     <img class="w-full h-full object-cover" src="./Images/home-about-us.png" alt="">
                     <div class="lg:grid items-center absolute top-0 h-full right-0 translate-x-1/2   hidden">
-                        <img class="h-4/5" src="./Images/product-shower-gel-big.png" alt="">
+                        <img class="object-contain h-4/5" src="./Images/product-shower-gel-big.png" alt="">
                     </div>
                 </div>
-                <div class="lg:ml-48 md:flex md:flex-col md:justify-evenly md:ml-12 col-start-2 col-span-1 py-12">
+                <div class="lg:ml-48 md:pr-[10vw] md:flex md:flex-col md:justify-evenly md:ml-12 col-start-2 col-span-1 py-12">
                     <h2 class="md:text-7xl text-5xl font-semibold">Our commitment to sustainability</h2>
                     <p class="md:text-3xl md:leading-10 text-[1.8rem] leading-snug my-12">We want to meet the needs of the present
                         without jeopardizing future generations'
@@ -199,39 +200,64 @@
                     <h2 class="lg:text-7xl text-5xl font-semibold my-12">Read what's new</h2>
 
                     <div class="sm:max-w-3xl carousel">
-                        <article id="blog-article" class="bg-blog-1 bg-cover rounded-4xl flex flex-col px-[7.5%] py-[5%] space-y-96">
+
+                        <article id="blog-article" class="bg-blog-1 bg-cover rounded-4xl flex flex-col  justify-between px-[7.5%] py-[5%] space-y-96 ">
                             <div>
                                 <p class="text-4xl font-semibold text-white">The Top 10 Tips for Healthy Winter Skin</p>
                                 <p class="text-white text-2xl my-12">Read more about what experts say ...</p>
                             </div>
-                            <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                            <div class="lg:flex-row lg:basis-auto flex flex-col w-full my-8 basis-52 justify-between">
                                 <button class="sm:w-max text-black bg-white p-6 px-12 rounded-6xl text-[1.7rem]">Read now</button>
-                                <button class="sm:w-max text-black bg-greydark p-6 px-12 rounded-6xl text-[1.7rem] border-2 border-solid border-black">Go to blog</button>
+                                <button class="sm:w-max text-white bg-transparent p-6 px-12 rounded-6xl text-[1.7rem] border-2 border-solid border-white">Go to blog</button>
                             </div>
                         </article>
 
-                        <article id="blog-article" class="bg-blog-1 bg-cover rounded-4xl flex flex-col px-[7.5%] py-[5%] space-y-96">
+                        <article id="blog-article" class="bg-blog-2 bg-cover rounded-4xl flex flex-col  justify-between px-[7.5%] py-[5%] space-y-96 ">
                             <div>
-                                <p class="text-4xl font-semibold text-white">The Top 10 Tips for Healthy Winter Skin</p>
+                                <p class="text-4xl font-semibold text-white">Dermatologists Share Their Top 10 Tips for Soothing Dry, Itchy Skin</p>
                                 <p class="text-white text-2xl my-12">Read more about what experts say ...</p>
                             </div>
-                            <div class="flex flex-col w-full my-8 basis-52 justify-between">
+                            <div class="lg:flex-row lg:basis-auto flex flex-col w-full my-8 basis-52 justify-between">
                                 <button class="sm:w-max text-black bg-white p-6 px-12 rounded-6xl text-[1.7rem]">Read now</button>
-                                <button class="sm:w-max text-black bg-greydark p-6 px-12 rounded-6xl text-[1.7rem] border-2 border-solid border-black">Go to blog</button>
+                                <button class="sm:w-max text-white bg-transparent p-6 px-12 rounded-6xl text-[1.7rem] border-2 border-solid border-white">Go to blog</button>
+                            </div>
+                        </article>
+
+                        <article id="blog-article" class="bg-blog-3 bg-cover rounded-4xl flex flex-col  justify-between px-[7.5%] py-[5%] space-y-96 ">
+                            <div>
+                                <p class="text-4xl font-semibold text-white">How to Use Moisturizers for Psoriasis to Prevent Dry, Flaky Skin</p>
+                                <p class="text-white text-2xl my-12">Read more about what experts say ...</p>
+                            </div>
+                            <div class="lg:flex-row lg:basis-auto flex flex-col w-full my-8 basis-52 justify-between">
+                                <button class="sm:w-max text-black bg-white p-6 px-12 rounded-6xl text-[1.7rem]">Read now</button>
+                                <button class="sm:w-max text-white bg-transparent p-6 px-12 rounded-6xl text-[1.7rem] border-2 border-solid border-white">Go to blog</button>
+                            </div>
+                        </article>
+
+                        <article id="blog-article" class="bg-blog-4 bg-cover rounded-4xl flex flex-col  justify-between px-[7.5%] py-[5%] space-y-96 ">
+                            <div>
+                                <p class="text-4xl font-semibold text-white">Can Hyaluronic Acid Give You Shiny Healthy Hair?</p>
+                                <p class="text-white text-2xl my-12">Read more about what experts say ...</p>
+                            </div>
+                            <div class="lg:flex-row lg:basis-auto flex flex-col w-full my-8 basis-52 justify-between">
+                                <button class="sm:w-max text-black bg-white p-6 px-12 rounded-6xl text-[1.7rem]">Read now</button>
+                                <button class="sm:w-max text-white bg-transparent p-6 px-12 rounded-6xl text-[1.7rem] border-2 border-solid border-white">Go to blog</button>
+                            </div>
+                        </article>
+
+                        <article id="blog-article" class="bg-blog-5 bg-cover rounded-4xl flex flex-col  justify-between px-[7.5%] py-[5%] space-y-96 ">
+                            <div>
+                                <p class="text-4xl font-semibold text-white">Why the keto Diet is Making Your Hair Fall Out (and How to Stop it)</p>
+                                <p class="text-white text-2xl my-12">Read more about what experts say ...</p>
+                            </div>
+                            <div class="lg:flex-row lg:basis-auto flex flex-col w-full my-8 basis-52 justify-between">
+                                <button class="sm:w-max text-black bg-white p-6 px-12 rounded-6xl text-[1.7rem]">Read now</button>
+                                <button class="sm:w-max text-white bg-transparent p-6 px-12 rounded-6xl text-[1.7rem] border-2 border-solid border-white">Go to blog</button>
                             </div>
                         </article>
 
                         
-                        <article id="blog-article" class="bg-blog-1 bg-cover rounded-4xl flex flex-col px-[7.5%] py-[5%] space-y-96">
-                            <div>
-                                <p class="text-4xl font-semibold text-white">The Top 10 Tips for Healthy Winter Skin</p>
-                                <p class="text-white text-2xl my-12">Read more about what experts say ...</p>
-                            </div>
-                            <div class="flex flex-col w-full my-8 basis-52 justify-between">
-                                <button class="sm:w-max text-black bg-white p-6 px-12 rounded-6xl text-[1.7rem]">Read now</button>
-                                <button class="sm:w-max text-black bg-greydark p-6 px-12 rounded-6xl text-[1.7rem] border-2 border-solid border-black">Go to blog</button>
-                            </div>
-                        </article>
+                    
 
                     </div>
 
@@ -251,7 +277,9 @@
                 <h2 class="lg:text-7xl sm:text-center text-5xl font-semibold mb-12">Skincare routine in 4 steps</h2>
                 <div class="custom-grid2">
                     <div class="flex flex-col items-center">
-                        <p class="bg-greydark2 py-4 px-8 rounded-3xl text-2xl text-white font-semibold my-12">Step 01.</p>
+                        <p class="after:content-['**'] after:absolute after:right-0 relative bg-greydark2 py-4 px-8 rounded-3xl text-2xl text-white font-semibold my-12">Step 01.
+                            <!-- <span>**</span> -->
+                        </p>
                         <img src="./Images/step-1-icon.png" alt="">
                         <p class="text-3xl font-semibold my-12">Wash with <span>Cleanser</span></p>
                         <p class="text-2xl leading-relaxed text-center">The first step in any skincare routine 
@@ -320,7 +348,7 @@
     </div>
 
     <footer id="footer">
-        <div id="contact" class="lg:justify-items-end custom-grid5 col-start-1 bg-footer bg-cover text-white">
+        <div id="contact" class="lg:col-span-1 lg:justify-items-end custom-grid5 col-span-full bg-footer bg-cover text-white">
             <div class="lg:w-1/2 col-start-2 col-end-3 py-16">
                 <p class="text-5xl font-semibold my-12">Contact us</p>
                 <form action="" class="flex flex-col">
@@ -341,7 +369,7 @@
             </div>
         </div>
 
-        <div id="info" class="lg:col-start-2 custom-grid5 bg-greydark2 col-span-1 py-12">
+        <div id="info" class="lg:col-start-2 custom-grid5 bg-greydark2 col-span-full py-12">
 
             <div class="col-start-2">
                 <img src="./Images/footer-logo.png" alt="">
