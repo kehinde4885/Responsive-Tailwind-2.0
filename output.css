@@ -933,6 +933,10 @@ select {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-brown2 {
   --tw-bg-opacity: 1;
   background-color: rgb(212 141 120 / var(--tw-bg-opacity));
@@ -943,56 +947,52 @@ select {
   background-color: rgb(160 104 87 / var(--tw-bg-opacity));
 }
 
-.bg-transparent {
-  background-color: transparent;
-}
-
 .bg-info-1 {
-  background-image: url('./images/derma-1.png');
+  background-image: url('./Images/derma-1.png');
 }
 
 .bg-info-2 {
-  background-image: url('./images/derma-2.png');
+  background-image: url('./Images/derma-2.png');
 }
 
 .bg-info-3 {
-  background-image: url('./images/derma-3.png');
+  background-image: url('./Images/derma-3.png');
 }
 
 .bg-info-4 {
-  background-image: url('./images/derma-4.png');
+  background-image: url('./Images/derma-4.png');
 }
 
 .bg-info-5 {
-  background-image: url('./images/derma-5.png');
+  background-image: url('./Images/derma-5.png');
 }
 
 .bg-info-6 {
-  background-image: url('./images/derma-6.png');
+  background-image: url('./Images/derma-6.png');
 }
 
 .bg-blog-1 {
-  background-image: url('./images/Homepage-article-1.jpg');
-}
-
-.bg-footer {
-  background-image: url('./images/footer-img.jpg');
+  background-image: url('./Images/Homepage-article-1.jpg');
 }
 
 .bg-blog-2 {
-  background-image: url('./images/Homepage-article-2.jpg');
+  background-image: url('./Images/Homepage-article-2.jpg');
 }
 
 .bg-blog-3 {
-  background-image: url('./images/Homepage-article-3.jpg');
+  background-image: url('./Images/Homepage-article-3.jpg');
 }
 
 .bg-blog-4 {
-  background-image: url('./images/Homepage-article-4.jpg');
+  background-image: url('./Images/Homepage-article-4.jpg');
 }
 
 .bg-blog-5 {
-  background-image: url('./images/Homepage-article-5.jpg');
+  background-image: url('./Images/Homepage-article-5.jpg');
+}
+
+.bg-footer {
+  background-image: url('./Images/footer-img.jpg');
 }
 
 .bg-cover {
@@ -1342,24 +1342,9 @@ header {
   position: absolute;
 }
 
-.after\:relative::after {
-  content: var(--tw-content);
-  position: relative;
-}
-
 .after\:right-0::after {
   content: var(--tw-content);
   right: 0px;
-}
-
-.after\:content-\[\"\"\]::after {
-  --tw-content: "";
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\'\]::after {
-  --tw-content: '';
-  content: var(--tw-content);
 }
 
 .after\:content-\[\'\*\*\'\]::after {
